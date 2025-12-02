@@ -1,0 +1,14 @@
+.{
+    .name = .zig_dsa,
+    .version = "0.0.1",
+    .fingerprint = 0x338aa2271f2f8835, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.15.2",
+    .dependencies = .{
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "README.md"
+    },
+}
